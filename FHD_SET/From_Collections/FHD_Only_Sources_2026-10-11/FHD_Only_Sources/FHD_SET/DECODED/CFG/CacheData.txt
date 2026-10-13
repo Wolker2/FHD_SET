@@ -1,0 +1,10 @@
+Bm ^{
+    ItemsUseless ^{
+        2FHDSET_SearchTool_s=Mods\FHD_MODS\FHD_SET\DATA\ItemsUseless\FHDSET_SearchTool.gi
+    }
+}
+FHDSETV1 ^{
+    Build=NORMAL
+    Runtime=Mods\FHD_MODS\FHD_SET
+    Version=2.3.0-v25-canonical
+}

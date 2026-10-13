@@ -1,0 +1,15 @@
+FHD_SET OneCore Performance Alpha — build checks
+
+PASS: original FHD_SET Lang.dat decrypted/decompressed and parsed as BlockPar.
+PASS: original Main.dat parsed and reproduced byte-for-byte at the unpacked BlockPar layer.
+PASS: optimized NORMAL Lang.dat reload + BlockPar roundtrip.
+PASS: optimized PURPLE_CARGO Lang.dat reload + BlockPar roundtrip.
+PASS: changed script blocks have balanced braces and parentheses.
+PASS: NORMAL BuildMode = 0.
+PASS: PURPLE_CARGO BuildMode = 1.
+PASS: purple range = sets 11..15; completion target = 25 items.
+PASS: daily CountAllSets hot path contains no dynamic GetSetId call.
+PASS: daily DurabilityTick call removed; durability processing merged into CountAllSets single ShipItems pass.
+PASS: FHD_Ultra0 files copied unchanged from the latest source archive.
+
+Not claimed: in-game runtime test. Static/format validation cannot replace launching the target save with the user's exact mod stack.
